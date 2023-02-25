@@ -1,10 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-image: url(img/lua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +48,7 @@ body {
 
 #textlabel {
     font-size: 12px;
-    margin-right: 75px;
+    margin-right: 50px;
 }
 
 
@@ -55,6 +58,10 @@ label {
     margin-top: 5px;
     margin-bottom: 5px;
     color: black;
+}
+
+#selectlabel {
+    color: azure;
 }
 
 #email {
@@ -78,4 +85,20 @@ label {
     border-radius: 15px;
     background-color: rgba(27, 70, 189, 0.459);
     box-shadow: 2px 2px 2px 0 black;
+    cursor: pointer;
+}
+
+#btn:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#selecinar_background {
+    position: fixed;
+    top: 15px;
+    right: 15px;
 }
